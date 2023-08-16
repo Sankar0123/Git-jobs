@@ -1,0 +1,18 @@
+Attribute VB_Name = "Act_Custom_Template"
+Function Client()
+"Client script error: Type Mismatch: [activity name] on line: [line number]"
+Cisco.Router.General.txt
+Cisco.Router.General.txt.custom\Scripts
+Custom.Device.Template.txt.custom\Templates
+Custom.Device.Template.txt.custom\Scripts
+Client.Custom.Report.PortStatus.txt 
+Custom_Report_GetPortStatus()
+Cisco.Switch.IOS.txt
+Custom.Device.Template.txt.custom\Templates\Scripts
+Cisco.Switch.IOS.txt.custom
+Cisco.Switch.IOS.txt
+.custom
+Custom_Report_GetPortStatus()
+Function Custom_Report_GetPortStatus()
+	cl.Log 3, "Testing custom activity: Custom_Report_PortStatus"
+End Function
